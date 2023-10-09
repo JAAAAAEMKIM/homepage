@@ -7,6 +7,14 @@
   min-height: 100vh;
 }
 
+
+.heroText {
+  font-size: 128px;
+  font-weight:900;
+  line-height: 1;
+
+
+}
 .description {
   display: inherit;
   justify-content: inherit;
@@ -29,9 +37,6 @@
   position: relative;
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
 }
 
 .code {
