@@ -6,25 +6,28 @@
   padding: 6rem;
   min-height: 100vh;
   max-width: var(--content-max-width);
+  margin: auto;
 }
 
 .heroText {
-  font-size: 128px;
+  font-size: 12rem;
   font-weight: 900;
   line-height: 1;
 
-  position: sticky;
-  top: calc(64px + 6rem);
+  position: relative;
   padding: 32px;
+  width: 100%;
 }
 
 .contents {
+  position: relative;
   border-top: 1px solid red;
   width: 100%;
   max-width: var(--content-max-width);
 
-  display: flex;
-  justify-content: center;
+  margin-top: 6rem;
+  padding: 24px;
+  background: rgba(var(--background-start-rgb), 1);
 }
 
 .code {
@@ -101,6 +104,16 @@
 .logo {
   position: relative;
 }
+
+.verticalLine {
+  position: absolute;
+  width: 1px;
+  border-left: 1px solid red;
+  height: 240px;
+}
+
+
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
